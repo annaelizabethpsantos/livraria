@@ -15,7 +15,7 @@ public class LivroBean implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private Livro livro = new Livro();
-	private String nomeBusca = "";	
+	private String nomeBusca = "";
 
 	public Livro getLivro() {
 		return livro;
